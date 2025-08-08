@@ -1,73 +1,92 @@
-# Welcome to your Lovable project
+# Dash Agent
 
-## Project info
+**Dash Agent** is an AI-powered sales assistant designed to turn raw sales data into actionable insights through beautiful, client-ready dashboards. Built with Vite, React, and Tailwind CSS, it leverages modern UI components and TypeScript to deliver a fast and intuitive user experience.
 
-**URL**: https://lovable.dev/projects/702a7004-c17b-4ad6-bab4-6abdd719460e
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- AI-driven insights and data interaction
+- Clean, modern UI with `shadcn-ui` and Tailwind
+- Fast development workflow with Vite
+- Modular and scalable codebase with TypeScript
+- Easy deployment and customization
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/702a7004-c17b-4ad6-bab4-6abdd719460e) and start prompting.
+## 🧑‍💻 Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### 1. Clone the Repository
 
-**Use your preferred IDE**
+```bash
+git clone https://github.com/your-username/Dash-Agent.git
+cd Dash-Agent
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+2. Install Dependencies
+Make sure you have Node.js and npm installed.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+bash
+Copy
+Edit
+npm install
+3. Run the Development Server
+bash
+Copy
+Edit
 npm run dev
-```
+The app will start on http://localhost:5173
 
-**Edit a file directly in GitHub**
+🛠️ Tech Stack
+React
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+TypeScript
 
-**Use GitHub Codespaces**
+Tailwind CSS
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Vite
 
-## What technologies are used for this project?
+shadcn-ui
 
-This project is built with:
+📦 Build for Production
+To build the app for production:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+bash
+Copy
+Edit
+npm run build
+To preview the production build:
 
-## How can I deploy this project?
+bash
+Copy
+Edit
+npm run preview
+🌐 Deployment
+You can deploy this app using any modern static hosting provider like:
 
-Simply open [Lovable](https://lovable.dev/projects/702a7004-c17b-4ad6-bab4-6abdd719460e) and click on Share -> Publish.
+Vercel
 
-## Can I connect a custom domain to my Lovable project?
+Netlify
 
-Yes, you can!
+GitHub Pages
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Customize domain settings and environment variables as needed.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+📁 Folder Structure
+plaintext
+Copy
+Edit
+.
+├── public/         # Static assets
+├── src/            # Main source code
+│   ├── components/ # Reusable UI components
+│   ├── pages/      # Page-level components
+│   └── utils/      # Utility functions
+├── index.html      # Main HTML template
+└── vite.config.ts  # Vite configuration
+📄 License
+This project is open-source and free to use under the MIT License.
+
+✨ Contributions
+Pull requests are welcome! If you have suggestions or find bugs, feel free to open an issue.
+
+
